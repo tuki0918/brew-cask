@@ -1,0 +1,8 @@
+#!/bin/sh
+
+brew install caskroom/cask/brew-cask
+
+# brew cask install <app_name> || true
+brew cask install alfred || true
+
+brew cask alfred link
